@@ -1,0 +1,2 @@
+class `bottom navigation` {
+}

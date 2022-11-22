@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Xtatic</string>
+    <string name="login_button">login</string>
+    <string name="signIn_button">sign in</string>
+    <string name="email">email</string>
+    <string name="first_name">first name</string>
+    <string name="second_name">second name</string>
+    <string name="phone">phone</string>
+    <string name="password">password</string>
+    <string name="zip">Zip address</string>
+    <string name="getting_started">getting started</string>
+</resources>
