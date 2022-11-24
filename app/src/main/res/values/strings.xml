@@ -9,4 +9,6 @@
     <string name="password">password</string>
     <string name="zip">Zip address</string>
     <string name="getting_started">getting started</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
