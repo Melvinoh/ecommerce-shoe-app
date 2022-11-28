@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <item
-        android:id="nav_home"
+        android:id="home_nav"
         android:icon="@drawable/ic_nav_home_24"
-        android:title="home"/>
+        android:title="home"
+        android:enabled="true"/>
     <item
-        android:id="nav_market"
+        android:id="market_nav"
         android:icon="@drawable/ic_nav_market_24"
+        android:enabled="true"
         android:title="market"/>
     <item
-        android:id="nav_social"
+        android:id="social_nav"
         android:icon="@drawable/ic_nav_social_24"
+        android:enabled="true"
         android:title="social"/>
     <item
-        android:id="nav_trends"
+        android:id="trends_nav"
         android:icon="@drawable/ic_nav_trends_24"
+        android:enabled="true"
         android:title="trends"/>
     <item
-        android:id="nav_shops"
+        android:id="shops_nav"
         android:icon="@drawable/ic_nav_shops_24"
+        android:enabled="true"
         android:title="shops"/>
 </menu>

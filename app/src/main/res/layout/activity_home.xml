@@ -5,28 +5,27 @@
     android:layout_height="match_parent">
 
     <FrameLayout
-        android:id="@+id/frameLayout"
+        android:id="@+id/homeFrag"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="33dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_nav"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_nav1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_nav"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="27dp"
+        android:id="@+id/bottom_nav1"
+        android:layout_width="412dp"
+        android:layout_height="54dp"
+        android:foregroundGravity="bottom"
+        app:itemIconTint="@drawable/bottom_nav_selector"
+        app:itemTextColor="@drawable/bottom_nav_selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
-        app:menu="@menu/bottom_nav_menu"
-        app:itemIconTint="@drawable/bottom_nav_selector"
-        app:itemTextColor="@drawable/bottom_nav_selector" />
+        app:layout_constraintTop_toBottomOf="@+id/homeFrag"
+        app:menu="@menu/bottom_nav"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
